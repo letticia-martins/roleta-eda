@@ -7,7 +7,7 @@ typedef struct Casa {
     struct Casa *prox, *ant;
 } Casa;
 
-// Cria uma lista duplamente encadeada circular com os números 0..n-1
+// Cria uma lista duplamente encadeada circular 
 Casa *criar_roleta(int n) {
     Casa *inicio = NULL, *fim = NULL;
     for (int i = 0; i < n; i++) {
